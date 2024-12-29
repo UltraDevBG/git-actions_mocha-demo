@@ -1,7 +1,7 @@
-const { expect } = await import('chai');
+import { expect } from 'chai';
 
-describe('Example Test', () => {
-  it('should pass this test', () => {
+describe('Example Test', function () {
+  it('should pass this test', function () {
     expect(1 + 1).to.equal(2);
   });
 });
